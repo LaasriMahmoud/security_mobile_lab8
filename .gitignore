@@ -1,0 +1,4 @@
+# Ignore bulky binaries
+*.apk
+app-debug.apk
+00-scope/app-debug.apk

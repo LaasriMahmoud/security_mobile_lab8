@@ -1,0 +1,8 @@
+# Log des commandes exécutées - 2026-05-22 20:30:00
+mkdir 00-scope, 01-bevigil, 02-yaazhini, 03-triage, 04-report
+Copy-Item -Path 'C:\Users\Mahmoud\Downloads\app-debug.apk' -Destination '00-scope\'
+Get-FileHash -Path '00-scope\app-debug.apk' -Algorithm SHA256
+# Démarrage de l'analyse BeVigil pour com.example.jnidemo
+# Export des résultats BeVigil dans 01-bevigil\bevigil_export.json
+# Lancement de l'analyse statique Yaazhini sur app-debug.apk
+python "yaazhini.py" --apk "00-scope\app-debug.apk" --output "02-yaazhini"

@@ -1,0 +1,10 @@
+Date: 2026-05-22
+Analyste: Mahmoud Laasri
+Cible: JNI Demo (com.example.jnidemo)
+Artefact: app-debug.apk
+Provenance: Enseignant / Projet de cours (TP Sécurité Mobile)
+Hash: 18759D08E3D2292B1390AF798C6D204EFAFEA4073229B48C46F840AA48345A92
+Versions outils:
+  - BeVigil: 2.1.0
+  - Yaazhini: 1.3.2
+Environnement: Windows Windows 10 Pro
